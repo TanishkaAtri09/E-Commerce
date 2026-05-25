@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ApexCart | Enterprise Product Catalog</title>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="#" class="brand" id="brandLogo">
+      <i data-lucide="layers"></i> ApexCart
+    </a>
+    <button class="cart-btn" title="View Cart">
+      <i data-lucide="shopping-cart"></i>
+      <span class="cart-count" id="cartCount">0</span>
+    </button>
+  </nav>
+
+  <div class="container">
+    
+    <section id="homePage" class="page active">
+      <div class="catalog-header">
+        <h1>Product Catalog</h1>
+        <p class="subtitle">High-performance components engineered for modern architectures.</p>
+      </div>
+      <div class="product-grid" id="productGrid">
+        </div>
+    </section>
+
+    <section id="detailsPage" class="page">
+      <div class="back-link" id="backToCatalogBtn">
+        <i data-lucide="arrow-left" class="icon-small"></i> Back to catalog
+      </div>
+      <div class="detail-wrapper" id="productDetailContainer">
+        </div>
+    </section>
+
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
